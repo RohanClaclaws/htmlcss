@@ -3,7 +3,7 @@
     src: url("./DomaineDispCondMedium.ttf");
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,48 +11,50 @@
 
 
 
-html,body{
+html,
+body {
     width: 100%;
     height: 100%;
 }
 
-#main{
-    overflow-x: hidden;
-    background:#1D1D1B;
+#main {
+    /* overflow: hidden; */
+    /* background: #1D1D1B; */
+
 }
 
-#page1{
-    /* height: 100vh; */
+#page1 {
+    height: 100%;
     width: 100vw;
-    height: 100vh;
-    overflow-x: hidden;
+    overflow: hidden;
     background-color: #C8C0B6;
+
 }
 
-#nav{
+#nav {
     height: 100px;
     width: 100%;
-    display:flex ;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 30px 40px;
     border-bottom: 1px solid #6F6C66;
 }
 
-#nav h4{
-    font-family:Editorial New Light;
+#nav h4 {
+    font-family: Editorial New Light;
     font-size: 17px;
-    font-weight:lighter;
+    font-weight: lighter;
     width: 30%;
-    color: #4A4843;    
+    color: #4A4843;
 }
 
-#nav img{
+#nav img {
     height: 30px;
     width: 30%;
 }
 
-#nav i{
+#nav i {
     font-size: 26px;
     width: 30%;
     text-align: right;
@@ -60,22 +62,22 @@ html,body{
     padding: 10px;
 }
 
-#elems{
+#elems {
     margin-top: 38px;
     width: 100%;
-    height:400px ;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-#elem1{
+#elem1 {
     width: 32%;
     padding: 0px 40px;
 }
 
-#elem2{
-    width:28% ;
+#elem2 {
+    width: 28%;
     padding-top: 20px;
     text-align: center;
     height: 100%;
@@ -83,17 +85,17 @@ html,body{
     border-right: 1px solid #817C76;
 }
 
-#elem3{
+#elem3 {
     width: 31%;
     padding: 0px 20px;
 }
 
-#elem-image-div{
+#elem-image-div {
     width: 100%;
     overflow: hidden;
 }
 
-#elem-image-div img{
+#elem-image-div img {
     cursor: pointer;
     height: 100%;
     width: 100%;
@@ -101,16 +103,17 @@ html,body{
     transition: all ease-in 0.4s;
 }
 
-#elem-image-div img:hover{
+#elem-image-div img:hover {
     scale: 1.1;
 }
 
-#elem1 h5{
+#elem1 h5 {
     margin: 14px 0px;
     font-size: 26px;
     font-family: Domaine;
 }
-#elem1 h5 span{
+
+#elem1 h5 span {
     margin-right: 4px;
     background-color: #B83C12;
     padding: 3px;
@@ -119,20 +122,23 @@ html,body{
     border-radius: 4px;
     font-size: 16px
 }
+
 #elem1 p {
     font-size: 20px;
     text-align: justify;
-    color:#272626;
-    font-family:Editorial New Light;
+    color: #272626;
+    font-family: Editorial New Light;
 }
-#elem3 h5{
+
+#elem3 h5 {
     margin: 14px 0px;
     margin-right: 5px;
     font-size: 26px;
     text-transform: uppercase;
     font-family: Domaine;
 }
-#elem3 h5 span{
+
+#elem3 h5 span {
     margin-left: 4px;
     background-color: #B83C12;
     padding: 3px;
@@ -142,49 +148,196 @@ html,body{
     font-size: 16px
 }
 
-#elem3 p{
+#elem3 p {
     font-size: 20px;
-    color:#272626;
-    font-family:Editorial New Light;
+    color: #272626;
+    font-family: Editorial New Light;
 }
 
-#elem2 h2{
+#elem2 h2 {
     font-size: 90px;
     font-weight: 500;
-    font-family:canopee;
+    font-family: canopee;
     margin-bottom: 20px;
 }
 
-#elem2 p{
-    font-family:Editorial New Light;
+#elem2 p {
+    font-family: Editorial New Light;
     text-align: center;
     letter-spacing: -.03em;
     margin-top: 1vw;
     font-size: 2.6vw;
     line-height: 3vw;
 }
-#elem2 p:last-child{
-    font-family:Editorial New Light;
+
+#elem2 p:last-child {
+    font-family: Editorial New Light;
     padding-top: 4px;
-    font-size:20px;
+    font-size: 20px;
     margin-top: 27px;
 }
-#elem2 p:last-child span{
+
+#elem2 p:last-child span {
     margin-right: 10px;
 }
 
-#page1 h1{
+#page1 h1 {
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 3.5rem;
     text-transform: uppercase;
     letter-spacing: -15px;
     background-color: #1C1C19;
-    color:#C4BCB3 ;
-    font-size: 650px;
+    color: #C4BCB3;
     font-weight: 100;
     font-family: canopee;
-    line-height: 600px;
+    /* line-height: 600px; */
     width: 96%;
+    /* height: 530px; */
     margin-inline: auto;
+    font-size: 34vw;
+    aspect-ratio: 5/1;
 }
 
+/** Page 2 */
+
+#page2 {
+    padding-top: 3rem;
+    width: 100%;
+    padding-bottom: 5rem;
+    background-color: #C8C0B6;
+    margin-top: -2px;
+    display: flex;
+    
+}
+
+#page2-left {
+    width: 35%;
+    margin-right: 2.6rem;
+}
+
+#page2-left .heading1-page2-left {
+    font-family: canopee;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 7.2vw;
+    text-align: left;
+}
+
+#page2-left .heading2-page2-left {
+    font-family: canopee;
+    font-weight: 900;
+    font-size: 9.2vw;
+    text-align: center;
+}
+
+#page2-left .page2-heading {
+    width: fit-content;
+    margin: 0 30px;
+}
+
+#page2-left .img-box {
+    width: 90%;
+    margin-inline: auto;
+    margin-bottom: 3rem;
+}
+
+#page2-left .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid black;
+}
+
+#page2-left p {
+    width: 90%;
+    margin-inline: auto;
+    font-family: Editorial New Light;
+    font-size: 2.25vw;
+    line-height: 2.7vw;
+}
+
+#page2-left p::first-letter {
+    font-family: canopee;
+    initial-letter: 3;
+    font-feature-settings: "ss03";
+    font-size: 7vw;
+    line-height: 5vw;
+    background-color: #1D1D1B;
+    color: #CDC6BE;
+    padding: 0.3rem 1rem;
+    margin: 0rem 0.5rem;
+}
+
+#page2-right {
+    width: 100%;
+    border-left: 1px solid black;
+}
+
+#page2-right .img-box{
+    background-color: red;
+  width: 90%;
+  height: 50%;
+  margin-left: 4.4rem;
+  margin-right: 3rem;
+  background-image: url('https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/605c62f4c78c4ba46a1268be_avatar-1-p-2000.jpeg');
+  background-position: center;
+  background-size: cover;
+  margin: 3vw;
+}
+#page2-right .text-box{
+    overflow: hidden;
+    width: 91%;
+    margin-inline: auto;
+    height: fit-content;
+}
+
+#page2-right h2{
+    width: 100%;
+    margin-inline: auto;
+    font-family: canopee;
+    font-size:6.9vw;
+    line-height: 7.6vw;
+}
+
+/**End  Page 2 */
+
+/** Page 3 */
+
+#page3{
+    width: 100%;
+    height: 100vh;
+    background-color: #C8C0B6;
+
+}
+
+#page3 .banner{
+    padding: 0 30px;
+    display: flex;
+    gap: 3rem;
+}
+
+
+
+#page3 .banner h1{
+    text-transform: uppercase;
+    letter-spacing: -15px;
+    background-color: #1C1C19;
+    color: #C4BCB3;
+    font-weight: 100;
+    font-family: canopee;
+    /* line-height: 600px; */
+    width: fit-content;
+    padding:0 3rem;
+    /* height: 530px; */
+    /* margin-inline: auto; */
+    font-size: 27vw;
+    aspect-ratio: 5/1;
+}
+
+#page3 .banner-logo{
+    flex: 1;
+    background-image: url('https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/60474834660f934090d42877_stamp.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
